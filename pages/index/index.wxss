@@ -1,0 +1,24 @@
+.page-index{
+  font-size: 24rpx;
+  padding: 16rpx 40rpx;
+  background: #ddd;
+}
+.input-area{
+  position: relative;
+}
+.input{
+  border-bottom: 1px solid #c7cee0;
+}
+.icon-down{
+  color: #8995a1;
+  font-size: 20rpx;
+}
+.icon-close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.output{
+  padding: 20rpx;
+  min-height: 80rpx;
+}

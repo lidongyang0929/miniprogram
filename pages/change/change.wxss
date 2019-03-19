@@ -1,0 +1,17 @@
+.title{
+  border-bottom: 1px solid #ececec;
+  font-size: 28rpx;
+  color:#aaa;
+  padding: 20rpx 40rpx;
+}
+.item-inner{
+  border-bottom:1px solid grey;
+  position:relative;
+  padding: 10rpx 0;
+  font-size: 24rpx;
+}
+.icon-duihao{
+  position:absolute;
+  right: 10rpx;
+  top: 10rpx;
+}
