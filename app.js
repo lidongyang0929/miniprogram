@@ -1,6 +1,6 @@
 App({
    onLaunch:function(){
-     this.globalData.curLang = wx.getStorageSync('curLang') || this.globalData.curLang[0]
+     this.globalData.curLang = wx.getStorageSync('curLang') || this.globalData.langList[0]
    },
    globalData:{
       curLang:{},
@@ -21,7 +21,7 @@ App({
         },
         {
           'chs': '韩语',
-          'lang': 'ko',
+          'lang': 'kor',
           'index': '3'
         },
         {

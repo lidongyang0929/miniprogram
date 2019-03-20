@@ -15,8 +15,8 @@
 
   <view class="output">
     <view class="text">译文</view>
-    <view class="result" wx:for="{{result}}" wx:key="index">
-       <text text-selectable='true'>{{item.dist}}</text>
+    <view class="result" wx:for="{{result}}" wx:key="index" wx:for-item="fanyi">
+       <text text-selectable='true'>{{fanyi.dst}}</text>
     </view>
   
   </view>

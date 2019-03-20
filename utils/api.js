@@ -7,7 +7,7 @@ function translate(q, { from = 'auto', to = 'auto' } = { from: 'auto', to: 'auto
     let salt = Date.now()
     let sign = md5(`${appid}${q}${salt}${key}`)
     wx.request({
-      url: 'https://fanyi-api.baidu.com/api/trans/vip/translate',
+      url:'https://fanyi-api.baidu.com/api/trans/vip/translate',
       data: {
         q,
         from,
@@ -32,7 +32,7 @@ function translate(q, { from = 'auto', to = 'auto' } = { from: 'auto', to: 'auto
         reject({ status: 'error', msg: '翻译失败' })
         wx.showToast({
           title: '网络异常',
-          icon: 'none',
+          icon: 'loading',
           duration: 3000
         })
       }
